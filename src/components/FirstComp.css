@@ -1,0 +1,43 @@
+.pageNumber {
+  list-style: none;
+  display: flex;
+}
+
+.pageNumber li {
+  padding: 10px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.pageNumber li.active {
+  background-color: black;
+  color: white;
+}
+table,
+tr,
+td,
+th {
+  border: 1px solid black;
+}
+table {
+  border-collapse: collapse;
+  background-color: burlywood;
+  font-weight: bolder;
+}
+
+.color {
+  font-weight: bolder;
+  font-size: xx-large;
+  color: brown;
+}
+.color img {
+  width: 137px;
+  height: 137px;
+}
+
+.show {
+  display: block;
+}
+.hide {
+  display: none;
+}
